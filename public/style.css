@@ -1,0 +1,47 @@
+.container{
+    background-color: aliceblue;
+    height:200vh;
+}
+.container-one{
+    background-color:rgb(228, 172, 69);
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight:bold;
+}
+.container-one-one:hover,.container-one-two:hover,.container-one-three:hover{
+    color:black;
+}
+.container-three{
+    background-color: rgb(228, 172, 69);
+    border-radius: 10px;
+}
+.container-one,.container-three,.container-two{
+  display:flex;
+  justify-content: space-around;
+}
+
+.container-one{
+    height: 100px;
+}
+.container-two{
+    
+    
+}
+.container-two-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-two-image{
+    width:100%;
+    border-radius: 20px;
+    overflow: visible;
+}
+.container-three-one,.container-three-two{
+    height:20vh;
+    margin:10px;
+    background-color: white;
+    width:40%;
+    border-radius: 10px;
+}
