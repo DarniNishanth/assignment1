@@ -1,19 +1,19 @@
 .container{
-    background-color: aliceblue;
-    height:200vh;
+    background-color: white;
+    height:100vh;
 }
 .container-one{
-    background-color:rgb(228, 172, 69);
+    background-color:black;
     align-items: center;
     border-radius: 10px;
     color: white;
     font-weight:bold;
 }
 .container-one-one:hover,.container-one-two:hover,.container-one-three:hover{
-    color:black;
+    color:red;
 }
 .container-three{
-    background-color: rgb(228, 172, 69);
+    background-color: black;
     border-radius: 10px;
 }
 .container-one,.container-three,.container-two{
@@ -43,6 +43,8 @@
     background-color: white;
     width:40%;
     border-radius: 10px;
+    color:red;
+    padding:10px;
 }
 
 .container-two-btn{
